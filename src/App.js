@@ -23,7 +23,7 @@ class App extends Component {
     const { movies } = this.state
 
     return (
-    <div>
+    <div className="4">
       <Movie movies={movies} />
     </div>
     )
